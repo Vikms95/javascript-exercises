@@ -36,13 +36,13 @@ const power = function(number,power) {
 const factorial = function(number) {
 
   let factorial = 1;
-  for (let i = 1; i < number; i++) {
-    factorial *= i;
+  for (let i = 0; i < number; i++) {
+    factorial *= i + 1;
   }
   return factorial;
 };
 
-// Do not edit below this line
+
 module.exports = {
   add,
   subtract,

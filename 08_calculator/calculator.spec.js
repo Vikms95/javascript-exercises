@@ -67,11 +67,11 @@ describe('factorial', () => {
 		expect(calculator.factorial(2)).toBe(2);
 	});
 
-	test.skip('computes the factorial of 5', () => {
+	test('computes the factorial of 5', () => {
 		expect(calculator.factorial(5)).toBe(120);
 	});
 
-	test.skip('computes the factorial of 10', () => {
+	test('computes the factorial of 10', () => {
 		expect(calculator.factorial(10)).toBe(3628800);
 	});
 });
