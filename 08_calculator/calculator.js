@@ -12,7 +12,6 @@ const sum = function(array){
   if(array.length == 0)
   {
     return array.length;
-	  
   }
   else if(array.length==1)
   {
